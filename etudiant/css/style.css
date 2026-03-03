@@ -92,4 +92,28 @@ button {
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 30px;
+  gap: 30px;
+}
+
+.card {
+  position: relative;
+}
+
+.button {
+  background-color: #07020d;
+  color: #5db7de;
+  height: 44px;
+  width: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+footer {
+  justify-content: center;
+  align-items: center;
 }
