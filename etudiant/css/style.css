@@ -52,6 +52,7 @@ img {
   left: 0;
   top: 50px;
   width: 100%;
+  z-index: 999;
 }
 
 header .wrapper {
@@ -114,6 +115,34 @@ button {
 }
 
 footer {
-  justify-content: center;
-  align-items: center;
+  text-align: center;
+  background-color: #5db7de;
+  font-size: 1.25rem;
+  padding: 30px 0;
+  color: #fff;
+}
+
+.media {
+  background-color: #272727;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 10px;
+  position: fixed;
+  top: 200px;
+  left: 0;
+}
+
+.media img {
+  width: 40px;
+  height: 40px;
+  display: block;
+  position: relative;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: grid;
+  gap: 10px;
 }
