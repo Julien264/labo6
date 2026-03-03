@@ -18,16 +18,49 @@ html {
 body {
   font: 1.125rem/160%;
   font-family: "Frank Ruhl Libre", serif;
+  background-color: #07020d;
+  color: #fff;
 }
 
 /* ==========================================================================
    Mise en page
    ========================================================================== */
+.wrapper {
+  width: 1280px;
+  margin: 0 auto;
+}
 
 /* ==========================================================================
    Element/typographie
    ========================================================================== */
+a {
+  text-decoration: none;
+}
 
 /* ==========================================================================
    Components
    ========================================================================== */
+
+.header {
+  color: #07020d;
+}
+
+header .wrapper {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo {
+  font-size: 1.875rem;
+  color: inherit;
+}
+
+.menu {
+  background-color: transparent;
+  border-style: none;
+  cursor: pointer;
+}
