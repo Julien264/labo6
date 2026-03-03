@@ -37,12 +37,21 @@ a {
   text-decoration: none;
 }
 
+img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
 /* ==========================================================================
    Components
    ========================================================================== */
 
 .header {
   color: #07020d;
+  position: fixed;
+  left: 0;
+  top: 50px;
+  width: 100%;
 }
 
 header .wrapper {
@@ -52,6 +61,7 @@ header .wrapper {
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
+  width: 800px;
 }
 
 .logo {
@@ -59,8 +69,27 @@ header .wrapper {
   color: inherit;
 }
 
-.menu {
+.menu span {
+  font-size: 1.875rem;
+}
+
+button {
   background-color: transparent;
   border-style: none;
   cursor: pointer;
+}
+
+.hero {
+  height: 400px;
+  background-image: url(../images/photos/mountains.jpg);
+}
+
+.contenu {
+  padding: 100px 0;
+}
+
+.contenu .wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 30px;
 }
