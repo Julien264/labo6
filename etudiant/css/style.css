@@ -114,6 +114,11 @@ button {
   right: 20px;
 }
 
+.button:hover{
+  background-color: #5db7de;
+  color: #07020d;
+}
+
 footer {
   text-align: center;
   background-color: #5db7de;
@@ -165,4 +170,9 @@ border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.8);
   align-content: center;
   justify-content: center;
+  display: none;
+}
+
+.modal.visible{
+  display: flex;
 }
